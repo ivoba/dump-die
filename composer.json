@@ -1,0 +1,23 @@
+{
+    "name": "ivoba/dump-die",
+    "type": "functions",
+    "description": "Addon functions for symfony VarDumper component",
+    "keywords": ["dump", "debug", "dump-die"],
+    "homepage": "https://github.com/ivoba/dump-die",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivo Bathke",
+            "email": "ivo.bathke@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": ">=2.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "files": [ "src/dump_die.php" ]
+    }
+}
