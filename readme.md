@@ -1,4 +1,19 @@
-# dump_die($var); the missing function of symfony's VarDumper component
+```asciidoc
+▓█████▄  █    ██  ███▄ ▄███▓ ██▓███  ▓█████▄  ██▓▓█████ 
+▒██▀ ██▌ ██  ▓██▒▓██▒▀█▀ ██▒▓██░  ██▒▒██▀ ██▌▓██▒▓█   ▀ 
+░██   █▌▓██  ▒██░▓██    ▓██░▓██░ ██▓▒░██   █▌▒██▒▒███   
+░▓█▄   ▌▓▓█  ░██░▒██    ▒██ ▒██▄█▓▒ ▒░▓█▄   ▌░██░▒▓█  ▄ 
+░▒████▓ ▒▒█████▓ ▒██▒   ░██▒▒██▒ ░  ░░▒████▓ ░██░░▒████▒
+ ▒▒▓  ▒ ░▒▓▒ ▒ ▒ ░ ▒░   ░  ░▒▓▒░ ░  ░ ▒▒▓  ▒ ░▓  ░░ ▒░ ░
+ ░ ▒  ▒ ░░▒░ ░ ░ ░  ░      ░░▒ ░      ░ ▒  ▒  ▒ ░ ░ ░  ░
+ ░ ░  ░  ░░░ ░ ░ ░      ░   ░░        ░ ░  ░  ▒ ░   ░   
+   ░       ░            ░               ░     ░     ░  ░
+ ░                                    ░                 
+```
+
+# DumpDie
+
+### the missing function of symfony's VarDumper component
 
 Though this function was rejected by symfony core team, it will probably still save tons of keystrokes around the world.
 
