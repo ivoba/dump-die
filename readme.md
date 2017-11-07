@@ -1,5 +1,7 @@
 # dump_die($var); the missing function of symfony's VarDumper component
 
+[![Build Status][ico-travis]][link-travis]
+
 Though this function was rejected by symfony core team, it will probably still save tons of keystrokes around the world.
 
 ## Installation
@@ -26,3 +28,6 @@ one function package ;) npm style...
 
 #### Todo
 test correct linenumber
+
+[ico-travis]: https://img.shields.io/travis/ivoba/dump-die/master.svg?style=flat-square
+[link-travis]: https://travis-ci.org/ivoba/dump-die
