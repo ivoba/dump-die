@@ -6,7 +6,7 @@ final class ddTest extends TestCase
 {
     public function testDd()
     {
-      $output = shell_exec('php '.__DIR__.'/test_dd.php');
+      $output = shell_exec('php '.__DIR__.'/fixtures/test_dd.php');
 
       $this->assertEquals('"now you see me"
 {#3
