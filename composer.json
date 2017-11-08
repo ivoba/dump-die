@@ -19,5 +19,8 @@
     },
     "autoload": {
         "files": [ "src/dump_die.php" ]
+    },
+    "suggests": {
+      "ivoba/dump-die-shortcuts": "d() & dd() shortcuts"
     }
 }

@@ -12,11 +12,6 @@ Though this function was rejected by symfony core team, it will probably still s
 
     dump_die($var);
 
-Shortcuts:  
-
-    d($var); // shortcut for dump($var);
-    dd($var); // shortcut for dump_die($var);
-
 ### Credits
 
 https://github.com/symfony/symfony/pull/13657  

@@ -15,8 +15,7 @@ final class web_dump_dieTest extends TestCase
         $output = [];
         exec($command, $output);
         $this->pid = (int) $output[0];
-        echo $this->pid;
-        sleep(2); // its a backgound task and therefore async, lets optimistically wait for it to start
+        sleep(2); // its a backgound task and therefore async, lets optimistically wait 2s for it to start
         $url = 'http://127.0.0.1:8001/test_web_dump_die.php';
         $data = file_get_contents($url);
         $this->assertFalse((strpos('now you see me', $data) === 0));
